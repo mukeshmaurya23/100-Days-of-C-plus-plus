@@ -1,0 +1,25 @@
+What is using namespace std  in c++?
+Answer:Lets first understand what is namespace in c++.
+       Two variable with same name is not allowed in c++.so to overcome this problem we use namespace .
+       namespace treat is as two different variable with different scope
+    Example:
+    namespace s1 
+    {
+        int a=10;
+    }
+    namespace s2
+    {
+        int a=20;
+    }
+    int main()
+    {
+        cout<<s1::a<<endl;
+        cout<<s2::a<<endl;
+        return 0;
+    }
+    using namespace std;
+    (The functionality of cout and cin are in iostream header file under namespace std.
+        if you dont write using namespace std then you have to write with std namespace and then cout
+        Example :std::cout<<"Hello"<<endl;
+        if you use using namespace std then you  have to write like this cout<<"Hello"<<endl;    
+    )
