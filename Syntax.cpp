@@ -7,7 +7,6 @@
 
 // functionality of cout and cin and many standard operation are include inside iostream header file
 
-// preprocessor file are comp
 using namespace std;
 // In c++ two variable with same name is not allowed to overcome this namespace is used
 // if you not  defined using namespace std then you have to write like eg
